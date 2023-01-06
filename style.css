@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.togg{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    background-color:white;
+}
+
+.üçgen1{
+    border-right: 400px solid #00c1e6;
+}
+
+.üçgen2{
+    border-left: 400px solid #00c1e6;
+}
+
+.üçgen{
+    border-bottom: 200px solid transparent;
+    border-top: 200px solid transparent;
+}
+
+.kare{
+    background-color: white;
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform-origin: top left;
+    transform: rotate(45deg);
+
+}
